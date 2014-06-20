@@ -20,10 +20,6 @@ The README.txt file gives explanation on the following data as well:
 * train-folder
 
 
-## CodeBook.md
-This file gives a more detailed explanation of the code used to run the analysis in run_analysis.R
-
-
 ## run_analysis.R
 This file contains a computer readable R-code. It is code which anyone can run on his or her R-version checking for all relevant packages, creating all relevant directories, loading the relevant data from the web! Fully independent!!! And it performs the following analyses:
 
@@ -32,6 +28,15 @@ This file contains a computer readable R-code. It is code which anyone can run o
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive variable names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+## data-folder
+This folder is created by run_analysis.R in order to download the file containing the data from the internet:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+## CodeBook.md
+This file gives a more detailed explanation of the code used to run the analysis in run_analysis.R
 
 
 ## CleanAccelerometerData.txt
